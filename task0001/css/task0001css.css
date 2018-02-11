@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+    background: gainsboro;
+}
+#redDiv1{
+    background-color: red;
+    width: 960px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#redDiv2{
+    background-color: red;
+    width: 960px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+}
+#parent{
+    position: relative;
+    width: 100%;
+    margin-bottom: 150px;
+}
+p.task {
+    color: green;
+}
+#radius{
+  width: 500px;
+    margin: 50px;
+}
+#radiustop{
+    height: 1px;
+    margin: 0 6px;
+    border-bottom: 1px solid black;
+
+}
+#radius1{
+    height: 1px;
+    margin: 0 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radius2{
+    height: 1px;
+    margin: 0 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radius2{
+    height: 1px;
+    margin: 0 4px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radius3{
+    height: 1px;
+    margin: 0 3px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radius4{
+    height: 1px;
+    margin: 0 2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radius5{
+    padding: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#radiusbuttom{
+    height: 1px;
+    margin: 0 6px;
+    border-top: 1px solid black;
+
+}
+
