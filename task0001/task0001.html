@@ -43,7 +43,7 @@
     <section>
         <p class="task">用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 </p>
         <p>法一：使用表格布局</p>
-        <div id="tableContainer">
+        <div class="tableContainer">
             <div class="tableRow">
                 <div class="cell" id="div-a">div-a</div>
                 <div class="cell" id="div-b">div-b</div>
@@ -51,6 +51,7 @@
             <div class="tableRow">
                 <div class="cell " id="div-c">div-c</div>
                 <div class="cell"></div>
+
             </div>
 
         </div>
@@ -61,6 +62,41 @@
     </section>
     <section>
         <p>用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化</p>
+        <p>法一,使用表格布局</p>
+        <div class="tableContainer">
+            <div id="tableRow2">
+                <div class="cell2 fixed-width">固定宽度</div>
+                <div class="cell2">自适应宽度</div>
+                <div class="cell2 fixed-width">固定宽度</div>
+            </div>
+        </div>
+        <p>法二,使用绝对定位</p>
+        <div class="out">
+            <div class="fixed-absolute" id="position-left">
+                <span>固定宽度1</span>
+            </div>
+            <div class="fixed-absolute" id="position-right">
+                <span>固定宽度2</span>
+            </div>
+            <div class="adaptive" >
+                <span>自适应宽度</span>
+            </div>
+
+        </div>
+        <p>法三,使用float</p>
+        <div class="out">
+            <div class="fixed-float float-left">
+                <span>固定宽度</span>
+            </div>
+            <div class="fixed-float float-right">
+                <span>固定宽度</span>
+            </div>
+            <div class="adaptive" >
+                <span>自适应宽度</span>
+            </div>
+
+        </div>
+
     </section>
 
 

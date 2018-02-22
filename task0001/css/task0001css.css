@@ -1,4 +1,6 @@
 body{
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     background: gainsboro;
 }
@@ -78,7 +80,7 @@ p.task {
     border-top: 1px solid black;
 }
 
-#tableContainer{
+.tableContainer{
     width: 100%;
     height: 100px;
     display: table;
@@ -89,6 +91,7 @@ p.task {
 }
 .cell{
     display: table-cell;
+    background-color: #ffff00;
 }
 #div-a{
     background-color: rgb(255, 0, 0);
@@ -96,11 +99,6 @@ p.task {
 }
 #div-b{
     background-color: #0000ff;
-}
-.div-c{
-    display: table-cell;
-    column-span: 2;
-    background-color: #ffff00;
 }
 #div-a2{
     background-color: #ff0000;
@@ -119,4 +117,48 @@ p.task {
     width: auto;
     height: 50px;
 }
-
+#tableRow2{
+    display: table-row;
+}
+.cell2{
+    border: 5px solid #ffffff;
+    display: table-cell;
+    margin: 10px;
+    background: #00ff00;
+}
+#tableRow2 .fixed-width{
+    width: 100px;
+    background-color: yellow;
+}
+.out{
+    width: 100%;
+}
+.adaptive{
+    padding-left: 100px;
+    height: 100px;
+    width: 100%;
+    background-color:#ffff00;
+}
+.fixed-absolute{
+    position: absolute;
+    background: #ff0000;
+    width: 100px;
+    height: 100px;
+}
+#position-left{
+    left: 0px;
+}
+#position-right{
+    right: 0px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.fixed-float{
+    background: #00ff00;
+    width: 100px;
+    height: 100px;
+}
